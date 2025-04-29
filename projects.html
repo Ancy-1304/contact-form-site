@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Projects</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+      <h1>My Projects</h1>
+      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      <nav id="navbar">
+         <a href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="projects.html">Projects</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+   </header>
+
+   <section>
+      <h2>Projects I've built</h2>
+
+      <div class="project">
+         <h3>To-Do App</h3>
+         <p>A simple React-based to-do app with CRUD operations.</p>
+      </div>
+
+      
+      <div class="project">
+         <h3>E-Commerce website</h3>
+         <p>A full-stack shopping website with login, cart, and payment features.</p>
+      </div>
+
+      
+      <div class="project">
+         <h3>Blog Website</h3>
+         <p>A Blog platform with rich-text editor and user accounts.</p>
+      </div>
+   </section>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <footer>
+      <p>&copy; 2025 My Portfolio</p>
+   </footer>
+
+   <script>
+      function toggleMenu(){
+         const nav = document.getElementById("navbar")
+         nav.classList.toggle("show")
+      }
+   </script>
+</body>
+</html>

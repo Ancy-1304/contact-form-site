@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+   <header>
+      <h1>Welcome to my Portfolio</h1>
+      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      <nav id="navbar">
+         <a href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="projects.html">Projects</a>
+         <a href="contact.html">Contact</a>
+      </nav>
+   </header>
+
+   <section>
+      <h2>Hello! I'm Ancy</h2>
+      <p>I am a Full-Stack Web Developer</p>
+   </section>
+
+   <footer>
+      <p>&copy; 2025 My Portfolio</p>
+   </footer>
+
+   <script>
+      function toggleMenu(){
+         const nav = document.getElementById("navbar")
+         nav.classList.toggle("show")
+      }
+   </script>
+</body>
+</html>
